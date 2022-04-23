@@ -137,7 +137,6 @@ begin
 
   Bola.Top:=10;
   Bola.Left:=10;
-  Timer.Enabled:=true;
 
   GameOverLabel.Visible:=false;
   Retry.Visible:=false;
