@@ -106,7 +106,7 @@ begin
 
     IncreaseSpeed;
 
-    Inc(Score,2);  //Tambah Score
+    Inc(Score,1);  //Tambah Score
     UpdateScore;
 
 
