@@ -28,8 +28,14 @@
         <EditorIndex Value="-1"/>
         <UsageCount Value="10"/>
       </Unit>
+      <Unit>
+        <Filename Value="..\..\..\College\Semester 4\UAS\Computer Graphics\Jawaban\unitlazbounce.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="21"/>
+        <UsageCount Value="10"/>
+      </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
+    <JumpHistory HistoryIndex="27">
       <Position>
         <Filename Value="unitlazbounce.pas"/>
         <Caret Line="20" Column="71" TopLine="8"/>
@@ -76,10 +82,6 @@
       </Position>
       <Position>
         <Filename Value="unitlazbounce.pas"/>
-        <Caret Line="20" Column="74" TopLine="41"/>
-      </Position>
-      <Position>
-        <Filename Value="unitlazbounce.pas"/>
         <Caret Line="64" Column="8" TopLine="45"/>
       </Position>
       <Position>
@@ -97,10 +99,6 @@
       <Position>
         <Filename Value="unitlazbounce.pas"/>
         <Caret Line="82" Column="21" TopLine="61"/>
-      </Position>
-      <Position>
-        <Filename Value="unitlazbounce.pas"/>
-        <Caret Line="33" Column="25" TopLine="86"/>
       </Position>
       <Position>
         <Filename Value="unitlazbounce.pas"/>

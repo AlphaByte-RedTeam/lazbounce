@@ -106,7 +106,7 @@ begin
 
     IncreaseSpeed;
 
-    Inc(Score,2);  //Tambah Score
+    Inc(Score,1);  //Tambah Score
     UpdateScore;
 
 
@@ -137,6 +137,7 @@ begin
 
   Bola.Top:=10;
   Bola.Left:=10;
+  Timer.Enabled:=true;
 
   GameOverLabel.Visible:=false;
   Retry.Visible:=false;
