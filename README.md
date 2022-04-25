@@ -1,5 +1,6 @@
 # lazbounce
-A simple retro ping-pong game built using Pascal programming language
+A simple retro ping-pong game built using Pascal programming language <br>
+![gameplay](./assets/videos/gameplay.gif)
 
 ## Our Team
 1. Janice Claresta Lingga - `32200041`
