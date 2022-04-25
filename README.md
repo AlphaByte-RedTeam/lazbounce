@@ -8,12 +8,6 @@ A simple retro ping-pong game built using Pascal programming language
 4. Stevanus Limanto - `32200022`
 5. Kitbert - `32200038`
 
-## Branching
-Everytime you want to commit or create pull request, please create a new branch using this format `feat/<your_name>-dev`
-
-## Working on your feature?
-Everytime you want to contribute to this project, make sure to double-check that you are currently in your branch dev. Please `fetch` and `merged` your branch to get the latest codebase.
-
 ## How to write a good commit message?
 Use this conventional commit message everytime you made changes. <br>
 
@@ -40,6 +34,9 @@ eat: add hat wobble
 - `test:` Everything related to testing
 - `docs:` Changes to the documentation
 - `chore:` Regular code maintenance. *You can also use emojis to represent commit types*
+- `perf:` A code that improves performance
+- `build:` Build related to changes
+- `ci:` Continuous integration
 
 ## More Examples
 ```
