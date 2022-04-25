@@ -26,7 +26,7 @@ eat: add hat wobble
 ```
 <br>
 
-## Type of Commit
+## Types of Commit
 - `feat:` The new feature you're adding to a particular application
 - `fix:` A bug fix
 - `style:` Feature and updates related to styling
