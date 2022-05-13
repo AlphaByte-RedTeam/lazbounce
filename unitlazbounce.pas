@@ -83,7 +83,7 @@ begin
   Bola.Left:=Bola.Left+SpeedX;
   Bola.Top:= Bola.Top+SpeedY;
 
-  //Atas dan Bawah
+  //Atas
   if Bola.Top <0  then SpeedY:=-SpeedY;
 
   //Kiri Kanan
