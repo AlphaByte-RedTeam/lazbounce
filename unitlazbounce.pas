@@ -60,23 +60,15 @@ begin
   InitGame;
 end;
 
-procedure TFormUtama.GameOverLabelClick(Sender: TObject);
-begin
-
-end;
-
 procedure TFormUtama.MouseEnterRetry(Sender: TObject);
 begin
   Retry.Font.Style:=[fsBold];
 end;
 
-
 procedure TFormUtama.MouseLeaveRetry(Sender: TObject);
 begin
    Retry.Font.Style:=[];
 end;
-
-
 
 procedure TFormUtama.OnTime(Sender: TObject);
 begin
@@ -114,10 +106,6 @@ begin
   InitGame;
 end;
 
-procedure TFormUtama.ScoreLabelClick(Sender: TObject);
-begin
-
-end;
 //Function
 procedure TFormUtama.InitGame;
 begin
@@ -156,4 +144,3 @@ begin
 end;
 
 end.
-
