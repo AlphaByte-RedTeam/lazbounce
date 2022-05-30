@@ -19,16 +19,14 @@ type
     Bola: TShape;
     Timer: TTimer;
     procedure FormCreate(Sender: TObject);
-    procedure GameOverLabelClick(Sender: TObject);
+    //procedure GameOverLabelClick(Sender: TObject);
     procedure MouseEnterRetry(Sender: TObject);
     procedure MouseLeaveRetry(Sender: TObject);
     procedure OnTime(Sender: TObject);
-    procedure PapanController(Sender: TObject; Shift: TShiftState; X, Y: Integer
-      );
-    procedure PapanMouseOver(Sender: TObject; Shift: TShiftState; X, Y: Integer
-      );
+    procedure PapanController(Sender: TObject; Shift: TShiftState; X, Y: Integer);
+    procedure PapanMouseOver(Sender: TObject; Shift: TShiftState; X, Y: Integer);
     procedure RetryBtn(Sender: TObject);
-    procedure ScoreLabelClick(Sender: TObject);
+    //procedure ScoreLabelClick(Sender: TObject);
   private
     //Function
     procedure InitGame;
@@ -50,10 +48,7 @@ implementation
 
 { TFormUtama }
 
-
-
-procedure TFormUtama.PapanController(Sender: TObject; Shift: TShiftState; X,
-  Y: Integer);
+procedure TFormUtama.PapanController(Sender: TObject; Shift: TShiftState; X, Y: Integer);
 begin
   Papan.Left:= X-(Papan.Width div 2);
   Papan.Top:= ClientHeight-Papan.Height-2;
@@ -65,31 +60,22 @@ begin
   InitGame;
 end;
 
-procedure TFormUtama.GameOverLabelClick(Sender: TObject);
-begin
-
-end;
-
 procedure TFormUtama.MouseEnterRetry(Sender: TObject);
 begin
   Retry.Font.Style:=[fsBold];
 end;
-
 
 procedure TFormUtama.MouseLeaveRetry(Sender: TObject);
 begin
    Retry.Font.Style:=[];
 end;
 
-
-
 procedure TFormUtama.OnTime(Sender: TObject);
 begin
   Bola.Left:=Bola.Left+SpeedX;
   Bola.Top:= Bola.Top+SpeedY;
 
-
-  //Atas dan Bawah
+  //Atas
   if Bola.Top <0  then SpeedY:=-SpeedY;
 
   //Kiri Kanan
@@ -103,13 +89,9 @@ begin
   and (Bola.Top + Bola.Height >= Papan.Top) then
   begin
     SpeedY:=-SpeedY;
-
     IncreaseSpeed;
-
     Inc(Score,1);  //Tambah Score
     UpdateScore;
-
-
   end;
 end;
 
@@ -124,10 +106,6 @@ begin
   InitGame;
 end;
 
-procedure TFormUtama.ScoreLabelClick(Sender: TObject);
-begin
-
-end;
 //Function
 procedure TFormUtama.InitGame;
 begin
@@ -166,4 +144,3 @@ begin
 end;
 
 end.
-

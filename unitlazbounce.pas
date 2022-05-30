@@ -19,14 +19,12 @@ type
     Bola: TShape;
     Timer: TTimer;
     procedure FormCreate(Sender: TObject);
-    procedure GameOverLabelClick(Sender: TObject);
     procedure MouseEnterRetry(Sender: TObject);
     procedure MouseLeaveRetry(Sender: TObject);
     procedure OnTime(Sender: TObject);
     procedure PapanController(Sender: TObject; Shift: TShiftState; X, Y: Integer);
     procedure PapanMouseOver(Sender: TObject; Shift: TShiftState; X, Y: Integer);
     procedure RetryBtn(Sender: TObject);
-    procedure ScoreLabelClick(Sender: TObject);
   private
     //Function
     procedure InitGame;

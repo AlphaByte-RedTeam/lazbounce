@@ -35,7 +35,6 @@ object FormUtama: TFormUtama
     Font.Color = clSilver
     Font.Height = -32
     ParentFont = False
-    OnClick = ScoreLabelClick
   end
   object GameOverLabel: TLabel
     AnchorSideLeft.Control = Owner
@@ -53,7 +52,6 @@ object FormUtama: TFormUtama
     Font.Height = -40
     Font.Style = [fsBold]
     ParentFont = False
-    OnClick = GameOverLabelClick
   end
   object Retry: TLabel
     AnchorSideLeft.Control = Owner
